@@ -1,3 +1,5 @@
+docker-compose -f docker-compose-core.yml -p core up -d
+
 kafka-topics.sh --bootstrap-server localhost:9092 --create --topic <topic_name>
 kafka-topics.sh --bootstrap-server localhost:9092 --create --topic <topic_name> --partitions 1 --replication-factor 1
 kafka-topics.sh --bootstrap-server localhost:9092 --list

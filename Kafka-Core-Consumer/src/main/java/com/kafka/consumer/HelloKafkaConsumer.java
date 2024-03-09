@@ -1,9 +1,9 @@
-package com.kafka;
+package com.kafka.consumer;
 
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Service;
 
-@Service
+//@Service
 public class HelloKafkaConsumer {
 
     @KafkaListener(topics = "t-hello")
