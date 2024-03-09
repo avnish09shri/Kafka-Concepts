@@ -14,7 +14,8 @@ public class FixedRateProducer {
 
     int counter = 1;
 
-    //@Scheduled(fixedRate = 1000)
+    //@Scheduled(fixedRate = 1000) // when we use scheduling we need to enable @enablescheduling in main class
+                                        // and disable kafkaproducer instance.
     private void sendMessage(){
        var i = counter++;
        log.info("i is: {}", i);
