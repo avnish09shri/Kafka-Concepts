@@ -6,4 +6,4 @@ kafka-topics.sh --bootstrap-server localhost:9092 --list
 kafka-topics.sh --bootstrap-server localhost:9092 --describe --topic <topic_name>
 kafka-topics.sh --bootstrap-server localhost:9092 --alter --topic <topic_name> --partitions <partition_no>
 
-kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic <topic_name> --offset <earliest/latest> partition 0
+kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic <topic_name> --offset <earliest/latest> --partition 0

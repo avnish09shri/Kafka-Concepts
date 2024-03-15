@@ -7,6 +7,8 @@
     <modules>
         <module>Kafka-Core-Producer</module>
         <module>Kafka-Core-Consumer</module>
+        <module>JsonHandling-Consumer</module>
+        <module>JsonHandling-Producer</module>
     </modules>
 
     <parent>
