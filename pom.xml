@@ -9,6 +9,8 @@
         <module>Kafka-Core-Consumer</module>
         <module>JsonHandling-Consumer</module>
         <module>JsonHandling-Producer</module>
+        <module>JsonHandling-Producer-II</module>
+        <module>JsonHandling-Consumer-II</module>
     </modules>
 
     <parent>
