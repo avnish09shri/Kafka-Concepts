@@ -11,6 +11,8 @@
         <module>JsonHandling-Producer</module>
         <module>JsonHandling-Producer-II</module>
         <module>JsonHandling-Consumer-II</module>
+        <module>MessageFilter-Producer</module>
+        <module>MessageFilter-Consumer</module>
     </modules>
 
     <parent>
