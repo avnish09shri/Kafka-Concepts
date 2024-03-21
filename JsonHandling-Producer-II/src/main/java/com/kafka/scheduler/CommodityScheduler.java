@@ -23,7 +23,7 @@ public class CommodityScheduler {
 
     @Scheduled(fixedDelay = 5000)
     public void fetchCommodities(){
-        List<Commodity> commodities = restTemplate.exchange("http://localhost:8080/commodity/v1", HttpMethod.GET,
+        List<Commodity> commodities = restTemplate.exchange("http://localhost:8081/commodity/v1", HttpMethod.GET,
                 null, new ParameterizedTypeReference<List<Commodity>>() {
                 }).getBody();
 
