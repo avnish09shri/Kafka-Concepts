@@ -13,6 +13,8 @@
         <module>JsonHandling-Consumer-II</module>
         <module>MessageFilter-Producer</module>
         <module>MessageFilter-Consumer</module>
+        <module>IdempotencyProducer</module>
+        <module>IdempotencyConsumer</module>
     </modules>
 
     <parent>
