@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>IdempotencyProducer</artifactId>
+    <artifactId>IdempotencyConsumerAlternate</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -39,6 +39,10 @@
             <groupId>org.springframework.kafka</groupId>
             <artifactId>spring-kafka-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.github.ben-manes.caffeine</groupId>
+            <artifactId>caffeine</artifactId>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
