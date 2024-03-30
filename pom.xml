@@ -17,6 +17,8 @@
         <module>IdempotencyConsumer</module>
         <module>IdempotencyProducerAlternate</module>
         <module>IdempotencyConsumerAlternate</module>
+        <module>KafkaProducerExceptionHandling</module>
+        <module>KafkaConsumerExceptionHandling</module>
     </modules>
 
     <parent>
