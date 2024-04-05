@@ -25,3 +25,5 @@ kafka-consumer-groups.sh --bootstrap-server localhost:9092 --group <group_name> 
 # this helps to read data from specific offset.
 kafka-consumer-groups.sh --bootstrap-server localhost:9092 --group <group_name> --execute --reset-offsets --to-offset <offset_no> --topic <topic_name>:partition_no
 
+# this helps to show data from beginning
+kafka-consumer-groups.sh --bootstrap-server localhost:9092 --from-beginning --topic <topic_no>
