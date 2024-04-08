@@ -27,3 +27,6 @@ kafka-consumer-groups.sh --bootstrap-server localhost:9092 --group <group_name> 
 
 # this helps to show data from beginning
 kafka-consumer-groups.sh --bootstrap-server localhost:9092 --from-beginning --topic <topic_no>
+
+# cron expression syntax
+<second> <minute> <hour> <day of month> <month> <day of week>
